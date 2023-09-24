@@ -1,5 +1,11 @@
+x-env: &env
+  KAGGLE_USERNAME: &KAGGLE_USERNAME ${KAGGLE_USERNAME}
+  KAGGLE_KEY: &KAGGLE_KEY ${KAGGLE_KEY}
+
 services:
   app:
     build: .
     volumes:
       - .:/app
+    environment:
+      <<: *env

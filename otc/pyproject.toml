@@ -10,6 +10,9 @@ python = "^3.10"
 kaggle = "^1.5.16"
 
 
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
