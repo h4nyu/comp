@@ -1,12 +1,15 @@
 [tool.poetry.dependencies]
 python = "~3.10"
-otc = {path = "otc", develop=true}
+otc = { path = "otc", develop=true }
 
 [tool.poetry]
 name = "competitions"
 version = "0.1.0"
 description = "packages for working with competitions"
 authors = []
+# packages = [
+#   { include = "otc" }
+# ]
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.2"
