@@ -181,6 +181,22 @@ tqdm = "*"
 urllib3 = "*"
 
 [[package]]
+name = "otc"
+version = "0.1.0"
+description = ""
+optional = false
+python-versions = "^3.10"
+files = []
+develop = false
+
+[package.dependencies]
+kaggle = "^1.5.16"
+
+[package.source]
+type = "directory"
+url = "otc"
+
+[[package]]
 name = "packaging"
 version = "23.1"
 description = "Core utilities for Python packages"
@@ -364,4 +380,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "6521b04d099bfabd2ca6d02378da2835eb846b6d0b782bec87bbec7c8bbf72e3"
+content-hash = "f8e794166406cb6cc315325acb34a0c1721a505713b81133e8316533ff017a89"

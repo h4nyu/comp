@@ -1,0 +1,16 @@
+[tool.poetry.dependencies]
+python = "^3.10"
+otc = {path = "otc"}
+
+[tool.poetry]
+name = "competitions"
+version = "0.1.0"
+description = "packages for working with competitions"
+authors = []
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

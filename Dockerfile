@@ -1,7 +1,8 @@
 FROM nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04
 
-ENV POETRY_HOME=/opt/poetry \
-    PATH=/opt/poetry/bin:$PATH
+ENV PATH=/opt/poetry/bin:$PATH \
+    POETRY_HOME=/opt/poetry \
+    POETRY_VIRTUALENVS_CREATE=false
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
@@ -14,3 +15,4 @@ RUN apt-get update \
 
 WORKDIR /app
 COPY . .
+RUN poetry install
