@@ -1,5 +1,5 @@
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "~3.10"
 otc = {path = "otc"}
 
 [tool.poetry]
@@ -10,6 +10,8 @@ authors = []
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.2"
+mypy = "^1.5.1"
+black = "^23.9.1"
 
 [build-system]
 requires = ["poetry-core"]
