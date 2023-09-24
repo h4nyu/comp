@@ -5,14 +5,19 @@ description = ""
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
+[tool.poetry.scripts]
+otc = "otc.cli:app"
+
 [tool.poetry.dependencies]
 python = "~3.10"
 kaggle = "^1.5.16"
 typer = "^0.9.0"
 pandas = "^2.1.1"
+matplotlib = "^3.8.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.2"
+pandas-stubs = "^2.0.3.230814"
 
 [build-system]
 requires = ["poetry-core"]

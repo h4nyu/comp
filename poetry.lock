@@ -345,7 +345,7 @@ description = ""
 optional = false
 python-versions = "~3.10"
 files = []
-develop = false
+develop = true
 
 [package.dependencies]
 kaggle = "^1.5.16"
@@ -684,4 +684,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "~3.10"
-content-hash = "d16a5591133d9755ff74e42c3b4a9ac62061765e2d093b895c8360bda09d8e97"
+content-hash = "012ddae75d8913deaa5ec181044cc382b20937aca6aa1e72dd5843b737174e0b"
