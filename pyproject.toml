@@ -7,9 +7,6 @@ name = "competitions"
 version = "0.1.0"
 description = "packages for working with competitions"
 authors = []
-# packages = [
-#   { include = "otc" }
-# ]
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.2"
